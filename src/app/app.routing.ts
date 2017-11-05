@@ -2,6 +2,8 @@ import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { NotesComponent } from "./notes/notes.component";
 import { ErrorHandleComponent } from "./error-handle/error-handle.component";
+import { AboutComponent } from "./about/about.component";
+import { AppComponent } from "./app.component";
 
 export const ROUTES: Routes = [
     {
@@ -13,8 +15,12 @@ export const ROUTES: Routes = [
         component: NotesComponent
     },
     {
+        path: 'about',
+        component: AboutComponent
+    },
+    {
         path: '',
-        component: HomeComponent,
+        component: AppComponent,
         pathMatch: 'full'
     },
     {

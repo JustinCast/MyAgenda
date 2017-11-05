@@ -12,12 +12,14 @@ import {SuiModule} from 'ng2-semantic-ui';
 import { ROUTES } from './app.routing';
 import { NotesComponent } from './notes/notes.component';
 import { ErrorHandleComponent } from './error-handle/error-handle.component';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NotesComponent,
-    ErrorHandleComponent
+    ErrorHandleComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
